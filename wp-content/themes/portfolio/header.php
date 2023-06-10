@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html class="is-touchscreen page-is-loaded dom-is-ready" style="--vh: 10px; --scrollBarWidth: 15px; --headerHeight: 70px;" lang="en">
+<html class="is-touchscreen page-is-loaded dom-is-ready" style="--vh: 10px; --scrollBarWidth: 15px; --headerHeight: 70px;" <?php language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <title>Nikita Kozlov. Frontend developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
     <?php wp_head(); ?>
@@ -13,7 +13,7 @@
     <!-- === HEADER === -->
     <header class="header is-scrolled" data-js-header="">
         <div class="header__inner container">
-            <a class="header__logo logo" href="index.html" aria-label="Home page" title="To home page">
+            <a class="header__logo logo" href="home.php" aria-label="Home page" title="To home page">
                 <svg class="logo__svg" width="64" height="64" viewBox="0 0 64 64" fill="none"
                      xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"

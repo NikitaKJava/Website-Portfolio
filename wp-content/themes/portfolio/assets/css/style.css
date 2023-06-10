@@ -1508,6 +1508,8 @@ button.swiper-pagination-bullet {
     margin-bottom:calc(var(--section-padding-y)*1.5);
     margin-top:var(--section-padding-y)
 }
+
+
 @media (max-width:767px) {
     .footer {
         margin-bottom:var(--section-padding-y)
@@ -1538,6 +1540,17 @@ button.swiper-pagination-bullet {
     gap:30px;
     justify-content:space-between
 }
+
+.additional__info{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.additional__info a{
+    margin: 0 10px 0 10px;
+}
+
 @media (max-width:920px) {
     .footer__contacts {
         align-items:flex-start

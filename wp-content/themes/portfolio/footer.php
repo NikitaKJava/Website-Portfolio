@@ -8,6 +8,7 @@
             <div class="footer__description">
                 <p> Contact me. I'm in touch between mon-fri from 7 am to 2 pm (gmt). </p>
             </div>
+
         </div>
         <div class="footer__contacts">
             <div class="footer__socials socials">
@@ -40,8 +41,9 @@
                            aria-label="Telegram">
                             <svg class="i-icon icon-telegram" data-js-svg-id="icon-telegram" viewBox="0 0 40 40">
 
-                                <path d="m31.78 11.82-3.599 16.973c-.271 1.198-.98 1.496-1.985.931l-5.484-4.04-2.646 2.544c-.293.293-.537.538-1.102.538l.394-5.584 10.163-9.184c.442-.394-.096-.612-.687-.218l-12.563 7.91-5.41-1.692c-1.176-.367-1.197-1.177.245-1.74l21.157-8.151c.98-.368 1.837.218 1.517 1.714Z"
-                                      fill="#fff"></path>
+                                <path
+                                    d="m31.78 11.82-3.599 16.973c-.271 1.198-.98 1.496-1.985.931l-5.484-4.04-2.646 2.544c-.293.293-.537.538-1.102.538l.394-5.584 10.163-9.184c.442-.394-.096-.612-.687-.218l-12.563 7.91-5.41-1.692c-1.176-.367-1.197-1.177.245-1.74l21.157-8.151c.98-.368 1.837.218 1.517 1.714Z"
+                                    fill="#fff"></path>
                             </svg>
                         </a>
                     </li>
@@ -49,10 +51,12 @@
                         <a class="socials__link" href="mailto:" target="_blank" title="Email" aria-label="Email">
                             <svg class="i-icon icon-email" data-js-svg-id="icon-email" viewBox="0 0 40 40">
 
-                                <path d="M31.586 18.034a.828.828 0 0 0-.827 0L20 24.117 9.241 18.034a.828.828 0 0 0-1.241.72v7.142a2.483 2.483 0 0 0 2.483 2.483h19.034A2.483 2.483 0 0 0 32 25.896v-7.138a.83.83 0 0 0-.414-.724Z"
-                                      fill="#fff"></path>
-                                <path d="M29.517 11H10.483A2.483 2.483 0 0 0 8 13.483v1.551a.827.827 0 0 0 .414.72l11.172 6.311a.828.828 0 0 0 .828 0l11.172-6.31a.827.827 0 0 0 .414-.72v-1.552A2.483 2.483 0 0 0 29.517 11Z"
-                                      fill="#fff"></path>
+                                <path
+                                    d="M31.586 18.034a.828.828 0 0 0-.827 0L20 24.117 9.241 18.034a.828.828 0 0 0-1.241.72v7.142a2.483 2.483 0 0 0 2.483 2.483h19.034A2.483 2.483 0 0 0 32 25.896v-7.138a.83.83 0 0 0-.414-.724Z"
+                                    fill="#fff"></path>
+                                <path
+                                    d="M29.517 11H10.483A2.483 2.483 0 0 0 8 13.483v1.551a.827.827 0 0 0 .414.72l11.172 6.311a.828.828 0 0 0 .828 0l11.172-6.31a.827.827 0 0 0 .414-.72v-1.552A2.483 2.483 0 0 0 29.517 11Z"
+                                    fill="#fff"></path>
                             </svg>
                         </a>
                     </li>
@@ -61,9 +65,14 @@
             <div class="footer__copyright"> © Nikita Kozlov, 2023</div>
         </div>
     </div>
+    <span class="additional__info">
+        <a href="">Impressum</a>
+        <div>|</div>
+        <a href="">Datenschutzerklärung</a>
+    </span>
 </footer>
 
-<?php wp_footer();?>
+<?php wp_footer(); ?>
 
 <!-- === / FOOTER === -->
 </div>
